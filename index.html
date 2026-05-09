@@ -724,16 +724,15 @@
                         <label>Servicio Requerido</label>
                         <select name="servicio">
                             <option value="">Seleccione un servicio</option>
-                            <option value>"Cotización"</option>
-                            <option value>"Servicio extraordinario / Urgente"</option>
-                            <option value>"Consulta técnica"</option>
-                            <option value>"Visita de diagnóstico"</option>
-                            <option value>"Señalización y Rutas de Evacuación"</option>
-                            <option value>"Certificaciones y Cumplimiento"</option>
+                            <option value="Cotización">Cotización</option>
+                            <option value="Urgente">Servicio extraordinario / Urgente</option>
+                            <option value="Tecnica">Consulta técnica</option>
+                            <option value="Mantenimiento">Mantenimiento preventivo</option>
+                            <option value="Instalacion">Instalación de sistemas</option>
                             <option value="Otro">Otro</option>
                         </select>
                     </div>
-                    <div class="form-group"><label>Mensaje</label><textarea placeholder="Describa brevemente sus necesidades..."></textarea></div>
+                    <div class="form-group"><label>Mensaje</label><textarea name="mensaje" placeholder="Describa brevemente sus necesidades..." required></textarea>
                     <button type="submit" class="form-submit">Enviar Mensaje →</button>
                 </form>
             </div>
